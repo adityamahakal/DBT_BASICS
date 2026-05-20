@@ -39,5 +39,5 @@ models:
   DBT_BASICS:
     staging:
       +materialized: view
-    staging:
+    marts:
       +materialized: table
